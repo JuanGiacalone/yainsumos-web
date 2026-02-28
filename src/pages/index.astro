@@ -1,0 +1,11 @@
+---
+import Layout from "../layouts/Layout.astro";
+import AppWrapper from "@/components/AppWrapper";
+import Home from "@/components/pages/Home";
+---
+
+<Layout title="YaInsumos Mar del Plata">
+	<AppWrapper client:load>
+		<Home />
+	</AppWrapper>
+</Layout>
