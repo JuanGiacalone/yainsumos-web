@@ -108,21 +108,21 @@ export default function Home() {
             <div className="space-y-6">
               <div className="space-y-4">
                 <h1 className="text-5xl md:text-6xl font-bold text-[#1a1a1a] leading-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                  Tecnología de Calidad
+                  Soluciones informaticas para tu negocio
                 </h1>
                 <p className="text-xl text-gray-600" style={{ fontFamily: 'Inter, sans-serif' }}>
-                  En <span className="font-semibold text-[#7ec850]">YaInsumos</span> encontrás todo lo que necesitás
+                  En <span className="font-semibold text-[#7ec850]">YaInsumos</span> atendemos tus problemas
                 </p>
               </div>
 
               <div className="space-y-3 pt-4">
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-[#7ec850] rounded-full" />
-                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Insumos y servicios informaticos</span>
+                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Insumos y accesorios informaticos</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-[#7ec850] rounded-full" />
-                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Atención personalizada</span>
+                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Reparación y mantenimiento de equipos y redes</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-[#7ec850] rounded-full" />
@@ -130,7 +130,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-[#7ec850] rounded-full" />
-                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Envíos a todo Mar del Plata</span>
+                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Atención prioritaria a empresas</span>
                 </div>
               </div>
 
@@ -150,134 +150,13 @@ export default function Home() {
             {/* Right: Hero Image */}
             <div className="relative h-96 md:h-full min-h-96">
               <img
-                src="/assets/hero-gaming.png"
+                src="/assets/hero-it.png"
                 alt="Gaming Setup con iluminación verde"
                 className="w-full h-full object-cover rounded-2xl shadow-2xl"
                 loading="eager"
                 decoding="sync"
               />
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/20 to-transparent" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Divider */}
-      <div className="h-1 bg-gradient-to-r from-transparent via-[#7ec850] to-transparent" />
-
-      {/* Categories Section */}
-      <section className="py-20 md:py-32 bg-white">
-        <div className="container">
-          <div className="max-w-3xl mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#1a1a1a] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>Categorías de Productos</h2>
-            <p className="text-lg text-gray-600 max-w-2xl" style={{ fontFamily: 'Inter, sans-serif' }}>
-              Explorá nuestro amplio catálogo de insumos tecnológicos, desde componentes de PC hasta accesorios gaming.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {categories.map((category, idx) => {
-              const Icon = category.icon;
-              return (
-                <div
-                  key={idx}
-                  className="group p-6 bg-white border-2 border-gray-200 rounded-xl card-hover hover:border-[#7ec850] transition-all duration-300"
-                >
-                  <div className="mb-4 inline-block p-3 bg-[#f9fdf7] rounded-lg group-hover:bg-[#7ec850]/10 transition-colors">
-                    <Icon className="w-6 h-6 text-[#7ec850]" />
-                  </div>
-                  <h3 className="text-xl font-bold text-[#1a1a1a] mb-2" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                    {category.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm mb-4" style={{ fontFamily: 'Inter, sans-serif' }}>
-                    {category.description}
-                  </p>
-                  <p className="text-xs text-[#7ec850] font-semibold" style={{ fontFamily: 'Inter, sans-serif' }}>
-                    {category.hashtags}
-                  </p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Divider */}
-      <div className="h-1 bg-gradient-to-r from-transparent via-[#7ec850] to-transparent" />
-
-      {/* Products Showcase Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-[#f9fdf7] to-white">
-        <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            {/* Left: Image */}
-            <div className="order-2 md:order-1">
-              <img
-                src="/assets/products-grid.png"
-                alt="Componentes tecnológicos organizados"
-                className="w-full rounded-2xl shadow-xl"
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
-
-            {/* Right: Content */}
-            <div className="order-1 md:order-2 space-y-6">
-              <div>
-                <h2 className="text-4xl md:text-5xl font-bold text-[#1a1a1a] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>Productos de Calidad</h2>
-                <p className="text-lg text-gray-600 max-w-2xl" style={{ fontFamily: 'Inter, sans-serif' }}>
-                  Seleccionamos cuidadosamente cada producto para garantizar la mejor relación calidad-precio.
-                </p>
-              </div>
-
-              <div className="space-y-4">
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-[#7ec850]/10">
-                      <span className="text-[#7ec850] font-bold">✓</span>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-[#1a1a1a]" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                      Garantía oficial
-                    </h3>
-                    <p className="text-gray-600 text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
-                      Todos nuestros productos cuentan con garantía del fabricante.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-[#7ec850]/10">
-                      <span className="text-[#7ec850] font-bold">✓</span>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-[#1a1a1a]" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                      Precios competitivos
-                    </h3>
-                    <p className="text-gray-600 text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
-                      Ofrecemos los mejores precios del mercado en Mar del Plata.
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center h-10 w-10 rounded-lg bg-[#7ec850]/10">
-                      <span className="text-[#7ec850] font-bold">✓</span>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-[#1a1a1a]" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                      Asesoramiento experto
-                    </h3>
-                    <p className="text-gray-600 text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
-                      Nuestro equipo está listo para ayudarte a elegir lo mejor.
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -365,44 +244,6 @@ export default function Home() {
 
       {/* Divider */}
       <div className="h-1 bg-gradient-to-r from-transparent via-[#7ec850] to-transparent" />
-
-      {/* Hashtags Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-white to-[#f9fdf7]">
-        <div className="container">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold text-[#1a1a1a] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>Síguenos</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto" style={{ fontFamily: 'Inter, sans-serif' }}>
-              Encontrá nuestras últimas novedades y promociones
-            </p>
-          </div>
-
-          <div className="flex flex-wrap justify-center gap-3">
-            {[
-              "#insumos",
-              "#informatica",
-              "#computacion",
-              "#electronica",
-              "#tecnología",
-              "#accesorios",
-              "#sonido",
-              "#almacenamiento",
-              "#ventas",
-              "#gamer",
-              "#tienda",
-              "#pc",
-              "#mardelplata",
-            ].map((tag, idx) => (
-              <span
-                key={idx}
-                className="px-4 py-2 bg-white border-2 border-[#7ec850] text-[#7ec850] rounded-full font-semibold text-sm hover:bg-[#7ec850] hover:text-white transition-colors duration-300"
-                style={{ fontFamily: 'Inter, sans-serif' }}
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-20 md:py-28 bg-gradient-to-r from-[#7ec850] to-[#6ab840] text-white">
