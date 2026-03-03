@@ -126,7 +126,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-[#7ec850] rounded-full" />
-                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Presupuestos sin cargo</span>
+                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Presupuestos sin cargo | Diagnósticos por escrito para aseguradoras</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-[#7ec850] rounded-full" />
@@ -278,7 +278,7 @@ export default function Home() {
                 <img src="/logo.png" alt="YaInsumos Logo" className="h-12 w-auto object-contain" loading="lazy" decoding="async" />
               </div>
               <p className="text-gray-400 text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
-                Tu tienda de confianza para insumos tecnológicos en Mar del Plata.
+                Mas de 20 años de experiencia nos avalan.
               </p>
             </div>
 
@@ -305,9 +305,19 @@ export default function Home() {
           </div>
 
           <div className="border-t border-gray-700 pt-8">
-            <p className="text-center text-gray-400 text-sm">
-              © 2026 YaInsumos. Todos los derechos reservados.
-            </p>
+            <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center text-gray-400 text-sm">
+              <p>
+                © 2026 YaInsumos. Todos los derechos reservados.
+              </p>
+              <a
+                href="https://giacatec.com.ar"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-4 py-1.5 text-xs font-medium text-gray-300 bg-[#1a1a1a] border border-gray-700 rounded-full hover:text-white hover:border-[#7ec850] hover:bg-[#7ec850]/10 transition-all duration-300"
+              >
+                Creada por Giacatec
+              </a>
+            </div>
           </div>
         </div>
       </footer>
