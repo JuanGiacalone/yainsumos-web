@@ -130,7 +130,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-[#7ec850] rounded-full" />
-                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Atención prioritaria a empresas</span>
+                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Atención personalizada a comercios y PyMEs</span>
                 </div>
               </div>
 
