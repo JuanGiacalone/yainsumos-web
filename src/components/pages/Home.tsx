@@ -108,17 +108,16 @@ export default function Home() {
             <div className="space-y-6">
               <div className="space-y-4">
                 <h1 className="text-5xl md:text-6xl font-bold text-[#1a1a1a] leading-tight" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                  Soluciones informaticas para tu negocio
+                  Soluciones Informáticas para tu Negocio
                 </h1>
-                <p className="text-xl text-gray-600" style={{ fontFamily: 'Inter, sans-serif' }}>
+                <p className="text-xl text-gray-600" style={{ fontFamily: 'Inter, sans-serif', fontStyle: 'italic' }}>
                   En <span className="font-semibold text-[#7ec850]">YaInsumos</span> atendemos tus problemas
                 </p>
               </div>
-
               <div className="space-y-3 pt-4">
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-[#7ec850] rounded-full" />
-                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Insumos y accesorios informaticos</span>
+                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Insumos y accesorios Informaticos</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-[#7ec850] rounded-full" />
@@ -126,11 +125,11 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-[#7ec850] rounded-full" />
-                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Presupuestos sin cargo | Diagnósticos por escrito para aseguradoras</span>
+                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Diagnósticos por escrito para aseguradoras</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-[#7ec850] rounded-full" />
-                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Atención personalizada a comercios y PyMEs</span>
+                  <span className="text-gray-700" style={{ fontFamily: 'Inter, sans-serif' }}>Atención personalizada a Comercios y PyMEs</span>
                 </div>
               </div>
 
@@ -141,7 +140,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="btn-whatsapp text-lg"
                 >
-                  <WhatsAppIcon size={24} />
+                  <WhatsAppIcon size={26} />
                   Escribinos por WhatsApp
                 </a>
               </div>
@@ -171,7 +170,9 @@ export default function Home() {
           <div className="max-w-3xl mb-12">
             <h2 className="text-4xl md:text-5xl font-bold text-[#1a1a1a] mb-4" style={{ fontFamily: 'Poppins, sans-serif' }}>Visitanos</h2>
             <p className="text-lg text-gray-600 max-w-2xl" style={{ fontFamily: 'Inter, sans-serif' }}>
-              Estamos ubicados en el corazón de Mar del Plata. Pasa por nuestro local y descubre toda nuestra variedad de productos.
+              Estamos ubicados en el corazón de Mar del Plata<br />Vení a nuestro local y te asesoramos en lo que necesites
+              <br /><br />
+              <span className="font-semibold text-[#7ec850]">¡Te esperamos de 10 a 18hs!</span> <span className="font-semibold text-[#1a1a1a]">Lunes a Viernes</span>
             </p>
           </div>
 
@@ -206,7 +207,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="text-[#7ec850] font-semibold hover:underline"
                     >
-                      {whatsappNumber}
+                      223 5 188 130
                     </a>
                   </div>
                 </div>
@@ -253,7 +254,7 @@ export default function Home() {
               ¿Listo para encontrar lo que buscás?
             </h2>
             <p className="text-lg text-white/90 max-w-2xl mx-auto" style={{ fontFamily: 'Inter, sans-serif' }}>
-              Contactanos por WhatsApp y nuestro equipo te ayudará a encontrar exactamente lo que necesitás.
+              Contactanos por WhatsApp y encontrá lo que necesitás
             </p>
           </div>
 
@@ -278,7 +279,7 @@ export default function Home() {
                 <img src="/logo.png" alt="YaInsumos Logo" className="h-12 w-auto object-contain" loading="lazy" decoding="async" />
               </div>
               <p className="text-gray-400 text-sm" style={{ fontFamily: 'Inter, sans-serif' }}>
-                Mas de 20 años de experiencia nos avalan.
+                Mas de 20 años de experiencia nos avalan
               </p>
             </div>
 
