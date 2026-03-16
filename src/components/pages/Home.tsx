@@ -310,6 +310,7 @@ export default function Home() {
               <p>
                 © 2026 YaInsumos. Todos los derechos reservados.
               </p>
+
               <a
                 href="https://giacatec.com.ar"
                 target="_blank"
@@ -318,6 +319,7 @@ export default function Home() {
               >
                 Creada por Giacatec
               </a>
+              <a href="http://qr.afip.gob.ar/?qr=Dk1DE7R1gbtd3bE8ZKRXrw,," target="_F960AFIPInfo"><img src="/assets/DATAWEB.jpg" height={10} width={35} loading="lazy" decoding="async" /></a>
             </div>
           </div>
         </div>
